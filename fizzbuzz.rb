@@ -13,10 +13,10 @@
 
 ## Solution - 3 
 
-#(1..100).each do |i|
+# (1..100).each do |i|
 #  v = "#{'Fizz' if (i%3).zero?}#{'Buzz' if (i%5).zero?}"
 #  puts v.empty? ? i : v
-#end
+# end
 
 ## Solution - 4
 
