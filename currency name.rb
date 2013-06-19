@@ -1,15 +1,4 @@
-#gets the no from the user
+puts "Enter the number : "
+no = gets
 
-puts "Enter your Number: "
-num = gets.chomp
-
-#now set the logic
-
-helper_hash = {0 => "Zero",1 => "One",2 => "Two",3 => "Three",4 => "Four",5 => "Five",6 => "Six",7 => "Seven",8 => "Eight",9 => "Nine"}
-
-# parse the number
-
-no1 = num.split(//)
-# no2 = no1.collect(:&to_i)
-
-# no2.each {|key,value| value}
+(1..no).each {|no| "#{fizz if no %3.zero?}#{buzz if no% 5.zero?}#{no % 3 !=0 && no % 5 != 0}"} 
