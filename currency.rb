@@ -10,3 +10,5 @@ no.each {|i| puts val[i]}
 
 
 cur_arr.each {|j| puts cur[j] }
+
+@abc = 12
